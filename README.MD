@@ -17,4 +17,11 @@ quand le jeu est fini, le board doit disparaitre, et le jeu doit recommencer
 gérer s'il y a un match nul (aucune ligne verticale, horizontale, ou diagonale pour les deux)
 ******************** les deux derniers peuvent être gérés par un booléen : si tout est rempli (.include? si (x) ou (O) est présent)
 
+##pour ouvrir ce WTF program...
+
+Vous devez juste lancer dans le terminal, un petit coup de 
+```
+ruby app.rb
+```
+et le tour sera joué !!
 
