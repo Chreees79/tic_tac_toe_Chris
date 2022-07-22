@@ -19,9 +19,11 @@ gérer s'il y a un match nul (aucune ligne verticale, horizontale, ou diagonale 
 
 **pour ouvrir ce WTF program...**
 
-Vous devez juste lancer dans le terminal, à partir du fichier tic_tac_toe_Chris un petit coup de 
+Tu dois juste lancer dans le terminal, à partir du fichier tic_tac_toe_Chris un petit coup de 
 ```
 ruby app.rb
 ```
 et le tour sera joué !!
+
+**MERCI DE TA VISITE Ô GRAND CORRECTEUR !!**
 
