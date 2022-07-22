@@ -1,6 +1,6 @@
 BIENVENUE DANS LE JEU DU MORPION ( il a été codé avec du barbelé !!)
 ======================
-![Chreees](./p_think.png)
+![Chreees](./ttt.jpg)
 
 Le morpion est un jeu de réflexion se pratiquant à deux joueurs au tour par tour et dont le but est de créer le premier un alignement sur une grille. Le jeu se joue généralement avec papier et crayon, mais ici, tu as la chance d'en trouver un programmé en ruby siouplé !! 
 
