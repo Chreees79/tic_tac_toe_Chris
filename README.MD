@@ -25,5 +25,6 @@ ruby app.rb
 ```
 et le tour sera joué !!
 
-**MERCI DE TA VISITE Ô GRAND CORRECTEUR !!**
+MERCI DE TA VISITE Ô GRAND CORRECTEUR !!
+==============
 
