@@ -14,20 +14,23 @@ class Game
 
   def define_players_names
     puts
-    puts " " * 30 + "Tu es le premier joueur 👍, quel est tom nom ?".underline.black.on_yellow
+    puts " " * 30 + "Tu es le premier joueur 👍, quel est ton nom ?".underline.black.on_yellow
+    puts
     print " " * 35 + "↪️  "
     name1 = gets.chomp.to_s.blue
     @players[0].name = name1
-    puts "Tu prendra les X.".underline.black.on_blue
+    puts "Tu prendra les #{@players[0].symbol}.".underline.black.on_blue
     puts " " * 30 + "Appuyer sur entrée ⬅️  pour continuer...".yellow
     puts " " * 35 + "↪️  "
     gets
     puts
-    puts " " * 30 + "Tu es le deuxième joueur et donc adversaire.... quel est tom nom ?".underline.black.on_yellow
+    puts " " * 30 + "Tu es le deuxième joueur et donc adversaire.... quel est ton nom ?".underline.black.on_yellow
+    puts
     print " " * 35 + "↪️  "
     name2 = gets.chomp.to_s.green
     @players[1].name = name2
-   puts" saches que tu prendra les O.".underline.black.on_blue
+   puts" saches que tu prendra du coup le symbole qui reste !!!".underline.black.on_blue
+   puts
    puts " " * 30 + "Appuyer sur entrée ⬅️  pour continuer...".yellow
    puts " " * 35 + "↪️  "
    gets
@@ -43,8 +46,8 @@ class Game
     input = gets.chomp.to_s.upcase
     if valid_input_check(input) == true
       @board.boardcases[positions.index(input)].value = current_player.symbol
+    end
   end
-end
 
   def valid_input_check(input)
     positions = ["A1", "A2", "A3", "B1", "B2", "B3", "C1", "C2", "C3"]

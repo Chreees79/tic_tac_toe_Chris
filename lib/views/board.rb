@@ -54,10 +54,8 @@ class Board
   def win?
     win_lists = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[6,4,2]]
     win_lists.each do |array|
-      # print "#{self.boardcases[list_idxs[0]].value + self.boardcases[list_idxs[1]].value + self.boardcases[list_idxs[2]].value}".magenta
-      # puts
-      check = self.boardcases[array[0]].value + self.boardcases[array[1]].value + self.boardcases[array[2]].value
-      if check == "XXX" || check == "OOO"
+      win_proof = self.boardcases[array[0]].value + self.boardcases[array[1]].value + self.boardcases[array[2]].value
+      if win_proof == "XXX" || win_proof == "OOO"
         return true
       end
     end
