@@ -31,7 +31,7 @@ class Board
     puts  " " * 25 + empty_field_line * 3 + "|"
     puts " " * 25 + "3".colorize(:black).colorize(:background => :magenta) + empty_field + self.boardcases[2].value + " " * 6 + "|" + empty_field + self.boardcases[5].value + " " * 6+ "|" + empty_field + self.boardcases[8].value + " " * 6 + "|"
     puts  " " * 25 + empty_field_line * 3 + "|"
-    puts  " " * 25 + "=" * 41
+    puts  " " * 26 + "=" * 41
     puts
     puts
   end
